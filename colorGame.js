@@ -17,5 +17,12 @@ for(var i = 0; i < squares.length; i++){
 
   squares[i].addEventListener("click", function(){
 
-   this.style.backgroundColor);
-  });
+    var clickedColor = this.style.backgroundColor;
+
+    if(clickedColor === pickedColor){
+      alert("Correct");
+    } else {
+      alert("Wrong!!");
+    }
+ });
+}
