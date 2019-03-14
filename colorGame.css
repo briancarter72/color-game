@@ -11,11 +11,11 @@ body {
   float: left;
   margin: 1.66%;
   border-radius: 10%;
-  transition: background .6;
+  /* transition: background 5.6s; */
 }
 
 #container {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 600px;
 }
 
@@ -62,6 +62,7 @@ button {
   letter-spacing: 1px;
   font-size: inherit;
   transition: all .3s;
+  outline: none;
 }
 
 button:hover {
